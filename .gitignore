@@ -1,0 +1,9 @@
+.attic/
+.classpath
+.DS_Store
+.factorypath
+.mvn/
+.project
+.settings/
+target/
+.vagrant/
