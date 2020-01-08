@@ -202,7 +202,7 @@
 
  7. `gw bootRun`
  
-		   .   ____          _            __ _ _
+		  .   ____          _            __ _ _
 		 /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 		( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
 		 \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
@@ -210,35 +210,37 @@
 		 =========|_|==============|___/=/_/_/_/
 		 :: Spring Boot ::        (v2.2.2.RELEASE)
 		
-		2020-01-07 22:12:18.083  INFO 9490 --- [  restartedMain] net.edwardsonthe.demo.Application        : Starting Application on sandbox with PID 9490 (/home/jeff/workspace/demo/demo-app/build/classes/java/main started by jeff in /home/jeff/workspace/demo/demo-app)
-		2020-01-07 22:12:18.088  INFO 9490 --- [  restartedMain] net.edwardsonthe.demo.Application        : No active profile set, falling back to default profiles: default
-		2020-01-07 22:12:18.145  INFO 9490 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-		2020-01-07 22:12:18.145  INFO 9490 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-		2020-01-07 22:12:20.204  INFO 9490 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-		2020-01-07 22:12:20.215  INFO 9490 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-		2020-01-07 22:12:20.216  INFO 9490 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-		2020-01-07 22:12:20.266  INFO 9490 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-		2020-01-07 22:12:20.266  INFO 9490 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2121 ms
-		2020-01-07 22:12:20.511  INFO 9490 --- [  restartedMain] net.edwardsonthe.demo.ScheduledTasks     : host=192.168.1.4
-		2020-01-07 22:12:20.914  INFO 9490 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-		2020-01-07 22:12:21.158  INFO 9490 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-		2020-01-07 22:12:21.239  INFO 9490 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-		2020-01-07 22:12:21.384  INFO 9490 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-		2020-01-07 22:12:21.439  INFO 9490 --- [  restartedMain] net.edwardsonthe.demo.Application        : Started Application in 4.545 seconds (JVM running for 5.735)
-		2020-01-07 22:12:22.371  INFO 9490 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTasks     : Status(host=192.168.1.4, estimate=3.1435932, delta=0.0020005464102070825)
-		2020-01-07 22:12:23.398  INFO 9490 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTasks     : Status(host=192.168.1.4, estimate=3.1406964, delta=-8.962535897931723E-4)
-		2020-01-07 22:12:24.451  INFO 9490 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTasks     : Status(host=192.168.1.4, estimate=3.1415568, delta=-3.5853589793077845E-5)
-		2020-01-07 22:12:25.391  INFO 9490 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTasks     : Status(host=192.168.1.4, estimate=3.1425428, delta=9.501464102070756E-4)
+		2020-01-08 08:38:27.055  WARN 15423 --- [  restartedMain] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 650 milliseconds to respond. Please verify your network configuration.
+		2020-01-08 08:38:27.162  INFO 15423 --- [  restartedMain] net.edwardsonthe.demo.Application        : Starting Application on sandbox with PID 15423 (/home/jeff/workspace/demo/demo-app/build/classes/java/main started by jeff in /home/jeff/workspace/demo/demo-app)
+		2020-01-08 08:38:27.163  INFO 15423 --- [  restartedMain] net.edwardsonthe.demo.Application        : No active profile set, falling back to default profiles: default
+		2020-01-08 08:38:27.324  INFO 15423 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+		2020-01-08 08:38:27.324  INFO 15423 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+		2020-01-08 08:38:30.342  INFO 15423 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+		2020-01-08 08:38:30.359  INFO 15423 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+		2020-01-08 08:38:30.359  INFO 15423 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+		2020-01-08 08:38:30.416  INFO 15423 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+		2020-01-08 08:38:30.416  INFO 15423 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3059 ms
+		2020-01-08 08:38:30.663  INFO 15423 --- [  restartedMain] net.edwardsonthe.demo.PiEstimator        : host=192.168.1.4
+		2020-01-08 08:38:31.037  INFO 15423 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+		2020-01-08 08:38:31.296  INFO 15423 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+		2020-01-08 08:38:31.415  INFO 15423 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+		2020-01-08 08:38:31.831  INFO 15423 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+		2020-01-08 08:38:31.848  INFO 15423 --- [  restartedMain] net.edwardsonthe.demo.Application        : Started Application in 6.41 seconds (JVM running for 7.441)
+		2020-01-08 08:38:32.732  INFO 15423 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTask      : PiEstimate(host=192.168.1.4, value=3.1415388, delta=-5.385358979292931E-5)
+		2020-01-08 08:38:34.060  INFO 15423 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTask      : PiEstimate(host=192.168.1.4, value=3.1407772, delta=-8.154535897930693E-4)
+		2020-01-08 08:38:35.202  INFO 15423 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTask      : PiEstimate(host=192.168.1.4, value=3.1413032, delta=-2.8945358979326485E-4)
+		2020-01-08 08:38:36.736  INFO 15423 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTask      : PiEstimate(host=192.168.1.4, value=3.1413168, delta=-2.7585358979331787E-4)
+		2020-01-08 08:38:37.832  INFO 15423 --- [   scheduling-1] net.edwardsonthe.demo.ScheduledTask      : PiEstimate(host=192.168.1.4, value=3.141812, delta=2.1934641020671108E-4)
 		.
 		.
 		.
 
-8. `curl localhost:8080/status | python -m json.tool`
+8. `curl localhost:8080/pi | python -m json.tool`
 
 		{
-		    "delta": 3.094641020684463e-05,
-		    "estimate": 3.1416236,
-		    "host": "192.168.1.4"
+		    "delta": -0.0004934535897929138,
+		    "host": "192.168.1.4",
+		    "value": 3.1410992
 		}
 
 9. `gw dockerBuildImage`
@@ -257,6 +259,6 @@
 
 13. `docker logs -f bc03873e8b9c`
 
-14. `curl localhost:8080/status | python -m json.tool`
+14. `curl localhost/pi | python -m json.tool`
 
 
