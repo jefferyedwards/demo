@@ -1,9 +1,14 @@
+.apt_generated
 .attic/
+build/
 .classpath
 .DS_Store
 .factorypath
+.gradle/
 .mvn/
 .project
 .settings/
+.springBeans
+.sts4-cache
 target/
 .vagrant/
